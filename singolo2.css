@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  max-width: 1020px;
+  background-color: #2d2f39;
+}
+
+header {
+  margin-left: 41px;
+  margin-right: 41px;
+  background-color: #2d2f39;
+}
+
+main {
+  margin-left: 41px;
+  margin-right: 41px;
+  background-color: #2d2f39;
+}
