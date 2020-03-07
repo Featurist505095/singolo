@@ -72,6 +72,7 @@ header .menu_buttons {
   margin-right: 10px;
   border: 1px solid #767e9e;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 header .selected {
@@ -167,4 +168,5 @@ footer .about .about_persons .persons_links {
 
 footer .about .about_persons .persons_links img {
   margin-right: 1px;
+  cursor: pointer;
 }
