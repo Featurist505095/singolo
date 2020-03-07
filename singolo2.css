@@ -1,21 +1,170 @@
+@font-face {
+  font-family: Lato;
+  src: local(Lato), url(assets/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: local(Lato), url(assets/fonts/Lato-Bold.ttf);
+}
+
 * {
   padding: 0px;
   margin: 0px;
 }
 
 body {
-  max-width: 1020px;
+  margin: 0 auto;
+  padding-top: 68px;
+  min-width: 1020px;
   background-color: #2d2f39;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 1020px;
 }
 
 header {
-  margin-left: 41px;
-  margin-right: 41px;
+  margin: 0px auto;
+  padding-left: 40px;
+  padding-right: 40px;
   background-color: #2d2f39;
 }
 
+header h1 {
+  padding-bottom: 28px;
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: 'Lato';
+  font-weight: 900;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+header .description {
+  width: 940px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: 'Lato';
+  font-weight: 300;
+  text-align: left;
+}
+
+header menu {
+  display: flex;
+  margin-bottom: 18px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: 'Lato';
+  font-weight: 400;
+  text-align: left;
+}
+
+header .menu_buttons {
+  display: block;
+  box-sizing: border-box;
+  padding: 0px 7px;
+  margin-right: 10px;
+  border: 1px solid #767e9e;
+  border-radius: 5px;
+}
+
+header .selected {
+  color: #767e9e;
+  border: 1px solid #c5c5c5;
+}
+
 main {
-  margin-left: 41px;
-  margin-right: 41px;
+  margin-left: 40px;
+  margin-right: 40px;
   background-color: #2d2f39;
+}
+
+main .content {
+  margin-bottom: 53px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1020px;
+}
+
+main .content img {
+  margin-bottom: 20px;
+}
+
+footer {
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #f1f1f1;
+}
+
+footer .about .about_header {
+  padding-top: 68px;
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: 'Lato-Bold';
+  text-align: left;
+  letter-spacing: 0.1px;
+}
+
+footer .about .about_description {
+  padding-top: 27px;
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: 'Lato';
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.15px;
+}
+
+footer .about .about_persons {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .about .about_persons .photo {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+footer .about .about_persons .persons_name {
+  margin-top: 13px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: 'Lato';
+  font-weight: 900;
+  text-align: left;
+  letter-spacing: 0.4px;
+}
+
+footer .about .about_persons .persons_description {
+  width: 300px;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: 'Lato';
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.08px;
+}
+
+footer .about .about_persons .persons_links {
+  margin-top: 21px;
+}
+
+footer .about .about_persons .persons_links img {
+  margin-right: 1px;
 }
