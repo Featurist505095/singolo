@@ -150,6 +150,8 @@ body {
 }
 
 .about_us .about .about_persons .persons_name {
+  width: 319px;
+  height: 18px;
   margin-top: 13px;
   font-size: 18px;
   line-height: 18px;
@@ -158,6 +160,7 @@ body {
   font-weight: 900;
   text-align: left;
   letter-spacing: 0.4px;
+  overflow: hidden;
 }
 
 .about_us .about .about_persons .persons_description {
