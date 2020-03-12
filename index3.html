@@ -4,50 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="singolo3.css" />
   </head>
   <body>
-    <div class="quote">
-      <h1>Get a Quote</h1>
-      <div class="description">
-        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis
-        mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia
-        odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor
-        mauris condimentum nibh.
-      </div>
-    </div>
-    <div class="requirements">
-      <form class="user_information">
-        <input type="text" value="Name (Required)" />
-        <br />
-        <input type="text" value="Email (Required)" />
-        <br />
-        <input type="text" value="Subject (Required)" />
-        <br />
-        <input type="text" value="Name" />
-        <br />
-        <input type="submit" value="Describe your project in detail..." />
-      </form>
-      <div class="contact">
-        <div class="contact_header">Contact Information</div>
-        <div class="contact_description">
-          Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
-          Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed
-          nunc et tortor luctus faucibus. Morbi at aluquet turpis et consequat
-          felis.
+    <div id="bottom_wrapper">
+      <div class="quote">
+        <h1>Get a Quote</h1>
+        <div class="description">
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh.
         </div>
-        <div class="contact_place">Elm St. 14/05 Lost City</div>
-        <div class="contact_phone">03528 331 86 35</div>
-        <div class="contact_mail">info@singolo.com</div>
       </div>
+      <div class="requirements">
+        <form class="user_information">
+          <input type="text" required placeholder="Name (Required)" />
+          <br />
+          <input type="email" required placeholder="Email (Required)" />
+          <br />
+          <input type="text" placeholder="Subject" />
+          <br />
+          <textarea
+            name="Text1"
+            cols="40"
+            rows="5"
+            placeholder="Describe your project in detail..."
+          ></textarea>
+          <br />
+          <input type="submit" value="Send" />
+        </form>
+        <div class="contact">
+          <div class="contact_header">Contact Information</div>
+          <div class="contact_description">
+            Quisque hendrerit purus dapibus, ornare nibh vitae, viver- ra nibh.
+            Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla
+            sed nunc et tortor luctus faucibus. Morbi at aliquet turpis et
+            consequat felis.
+          </div>
+          <div class="contact_place">
+            <img src="assets/images/location.png" alt="location" />
+            <span>Elm St. 14/05 Lost City</span>
+          </div>
+          <div class="contact_phone">
+            <img src="assets/images/phone.png" alt="phone" />
+            <a href="tel:03528 331 86 35">03528 331 86 35</a>
+          </div>
+          <div class="contact_mail">
+            <img src="assets/images/mail.png" alt="mail" />
+            <a href="mailto:info@singolo.com">info@singolo.com</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="copyright">© Copyright 2013</div>
+        <div class="links">
+          <img src="assets/images/fb.png" alt="fb" />
+          <img src="assets/images/gplus.png" alt="g+" />
+          <img src="assets/images/twitter.png" alt="tw" />
+          <img src="assets/images/in.png" alt="in" />
+        </div>
+      </footer>
     </div>
-    <footer>
-      <div class="copyright">© Copyright 2013</div>
-      <div class="links">
-        <img src="assets/images/fb.png" alt="fb" />
-        <img src="assets/images/gplus.png" alt="g+" />
-        <img src="assets/images/twitter.png" alt="tw" />
-        <img src="assets/images/in.png" alt="in" />
-      </div>
-    </footer>
   </body>
 </html>
