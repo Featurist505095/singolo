@@ -60,7 +60,7 @@ header h1 .red {
   cursor: pointer;
 }
 
-header menu .selected {
+#top_wrapper header menu .selected {
   color: #f06c64;
 }
 
