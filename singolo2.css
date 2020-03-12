@@ -15,24 +15,24 @@
 
 body {
   margin: 0 auto;
-  padding-top: 68px;
   min-width: 1020px;
-  background-color: #2d2f39;
+  background-color: #ea676b;
 }
 
-#wrapper {
+#middle_wrapper {
   margin: 0 auto;
   max-width: 1020px;
 }
 
-header {
+.portfolio header {
   margin: 0px auto;
+  padding-top: 68px;
   padding-left: 40px;
   padding-right: 40px;
   background-color: #2d2f39;
 }
 
-header h1 {
+.portfolio header h2 {
   padding-bottom: 28px;
   font-size: 30px;
   line-height: 18px;
@@ -43,7 +43,7 @@ header h1 {
   letter-spacing: 1px;
 }
 
-header .description {
+.portfolio header .description {
   width: 940px;
   height: 40px;
   font-size: 18px;
@@ -54,9 +54,9 @@ header .description {
   text-align: left;
 }
 
-header menu {
+.portfolio header menu {
   display: flex;
-  margin-bottom: 18px;
+  padding-bottom: 18px;
   font-size: 12px;
   line-height: 22px;
   color: #767e9e;
@@ -65,7 +65,7 @@ header menu {
   text-align: left;
 }
 
-header .menu_buttons {
+.portfolio header .menu_buttons {
   display: block;
   box-sizing: border-box;
   padding: 0px 7px;
@@ -75,36 +75,43 @@ header .menu_buttons {
   cursor: pointer;
 }
 
-header .selected {
+.portfolio header .selected {
   color: #767e9e;
   border: 1px solid #c5c5c5;
 }
 
-main {
-  margin-left: 40px;
-  margin-right: 40px;
+.portfolio main {
+  height: 620px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
   background-color: #2d2f39;
+  box-shadow: 0px -6px 0px 0px #323746 inset;
 }
 
-main .content {
+.portfolio main .content {
+  height: 620px;
   margin-bottom: 53px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1020px;
+  overflow: hidden;
 }
 
-main .content img {
+.portfolio main .content img {
   margin-bottom: 20px;
 }
 
-footer {
+.about_us {
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 67px;
   background-color: #f1f1f1;
+  box-shadow: 0px -6px 0px 0px #ffffff inset;
 }
 
-footer .about .about_header {
+.about_us .about .about_header {
   padding-top: 68px;
   font-size: 30px;
   line-height: 18px;
@@ -114,7 +121,7 @@ footer .about .about_header {
   letter-spacing: 0.1px;
 }
 
-footer .about .about_description {
+.about_us .about .about_description {
   padding-top: 27px;
   width: 940px;
   height: 57px;
@@ -123,23 +130,26 @@ footer .about .about_description {
   color: #767e9e;
   font-family: 'Lato';
   font-weight: 300;
-  text-align: left;
-  letter-spacing: 0.15px;
+  text-align: justify;
 }
 
-footer .about .about_persons {
+.about_us .about .about_persons {
   margin-top: 48px;
   display: flex;
   justify-content: space-between;
 }
 
-footer .about .about_persons .photo {
+.about_us .about .about_persons .photo {
   width: 300px;
   height: 300px;
-  margin-right: 20px;
+  margin-right: 19px;
 }
 
-footer .about .about_persons .persons_name {
+.about_us .about .third {
+  margin-left: 2px;
+}
+
+.about_us .about .about_persons .persons_name {
   margin-top: 13px;
   font-size: 18px;
   line-height: 18px;
@@ -150,7 +160,7 @@ footer .about .about_persons .persons_name {
   letter-spacing: 0.4px;
 }
 
-footer .about .about_persons .persons_description {
+.about_us .about .about_persons .persons_description {
   width: 300px;
   margin-top: 10px;
   font-size: 12px;
@@ -158,15 +168,14 @@ footer .about .about_persons .persons_description {
   color: #767e9e;
   font-family: 'Lato';
   font-weight: 400;
-  text-align: left;
-  letter-spacing: 0.08px;
+  text-align: justify;
 }
 
-footer .about .about_persons .persons_links {
+.about_us .about .about_persons .persons_links {
   margin-top: 21px;
 }
 
-footer .about .about_persons .persons_links img {
+.about_us .about .about_persons .persons_links img {
   margin-right: 1px;
   cursor: pointer;
 }
