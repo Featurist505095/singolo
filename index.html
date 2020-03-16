@@ -8,44 +8,51 @@
   </head>
   <body>
     <div id="top_wrapper">
+      <a name="home"></a>
       <header>
         <h1>SINGOLO<span class="red">*</span></h1>
         <menu>
-          <div class="selected">HOME</div>
-          <div class="">SERVICES</div>
-          <div class="">PORTFOLIO</div>
-          <div class="">ABOUT</div>
-          <div class="">CONTACT</div>
+          <div class="selected"><a href="#home">HOME</a></div>
+          <div class=""><a href="#services">SERVICES</a></div>
+          <div class=""><a href="#portfolio">PORTFOLIO</a></div>
+          <div class=""><a href="#about">ABOUT</a></div>
+          <div class=""><a href="#contact">CONTACT</a></div>
         </menu>
       </header>
       <div class="slider">
         <img class="left" src="assets/images/left.png" alt="left" />
-        <div class="vertical">
-          <img
-            class="phone"
-            src="assets/images/vertical_phone.png"
-            alt="vertical"
-          />
-          <img
-            class="image"
-            src="assets/images/vertical_image.png"
-            alt="vertical_image"
-          />
+        <div class="slide current_slide">
+          <div class="vertical">
+            <img
+              class="phone"
+              src="assets/images/vertical_phone.png"
+              alt="vertical"
+            />
+            <img
+              class="image display"
+              src="assets/images/vertical_image.png"
+              alt="vertical_image"
+            />
+          </div>
+          <div class="horizontal">
+            <img
+              class="phone"
+              src="assets/images/horizontal_phone.png"
+              alt="horizontal"
+            />
+            <img
+              class="image display"
+              src="assets/images/horizontal_image.png"
+              alt="vertical_image"
+            />
+          </div>
         </div>
-        <div class="horizontal">
-          <img
-            class="phone"
-            src="assets/images/horizontal_phone.png"
-            alt="horizontal"
-          />
-          <img
-            class="image"
-            src="assets/images/horizontal_image.png"
-            alt="vertical_image"
-          />
+        <div class="slide">
+          <img src="assets/images/second-layer.svg" alt="" />
         </div>
         <img class="right" src="assets/images/right.png" alt="right" />
       </div>
+      <a name="services"></a>
       <div class="services">
         <h2>Our Services</h2>
         <div class="description">
@@ -131,6 +138,7 @@
       </div>
     </div>
     <div id="middle_wrapper">
+      <a name="portfolio"></a>
       <article class="portfolio">
         <header>
           <h2>Portfolio</h2>
@@ -147,28 +155,85 @@
         </header>
         <main>
           <div class="content">
-            <img src="assets/images/1.png" alt="pic" width="220" height="187" />
-            <img src="assets/images/2.png" alt="pic" width="220" height="187" />
-            <img src="assets/images/3.png" alt="pic" width="220" height="187" />
-            <img src="assets/images/4.png" alt="pic" width="220" height="187" />
-            <img src="assets/images/5.png" alt="pic" width="220" height="187" />
-            <img src="assets/images/6.png" alt="pic" width="220" height="187" />
-            <img src="assets/images/7.png" alt="pic" width="220" height="187" />
-            <img src="assets/images/8.png" alt="pic" width="220" height="187" />
-            <img src="assets/images/9.png" alt="pic" width="220" height="187" />
             <img
+              class="web_design"
+              src="assets/images/1.png"
+              alt="pic"
+              width="220"
+              height="187"
+            />
+            <img
+              class="artwork"
+              src="assets/images/2.png"
+              alt="pic"
+              width="220"
+              height="187"
+            />
+            <img
+              class="graphic_design"
+              src="assets/images/3.png"
+              alt="pic"
+              width="220"
+              height="187"
+            />
+            <img
+              class="artwork"
+              src="assets/images/4.png"
+              alt="pic"
+              width="220"
+              height="187"
+            />
+            <img
+              class="web_design"
+              src="assets/images/5.png"
+              alt="pic"
+              width="220"
+              height="187"
+            />
+            <img
+              class="graphic_design"
+              src="assets/images/6.png"
+              alt="pic"
+              width="220"
+              height="187"
+            />
+            <img
+              class="graphic_design"
+              src="assets/images/7.png"
+              alt="pic"
+              width="220"
+              height="187"
+            />
+            <img
+              class="artwork"
+              src="assets/images/8.png"
+              alt="pic"
+              width="220"
+              height="187"
+            />
+            <img
+              class="graphic_design"
+              src="assets/images/9.png"
+              alt="pic"
+              width="220"
+              height="187"
+            />
+            <img
+              class="graphic_design"
               src="assets/images/10.png"
               alt="pic"
               width="220"
               height="187"
             />
             <img
+              class="graphic_design"
               src="assets/images/11.png"
               alt="pic"
               width="220"
               height="187"
             />
             <img
+              class="web_design"
               src="assets/images/12.png"
               alt="pic"
               width="220"
@@ -177,6 +242,7 @@
           </div>
         </main>
       </article>
+      <a name="about"></a>
       <div class="about_us">
         <div class="about">
           <div class="about_header">About Us</div>
@@ -247,6 +313,7 @@
       </div>
     </div>
     <div id="bottom_wrapper">
+      <a name="contact"></a>
       <div class="quote">
         <h1>Get a Quote</h1>
         <div class="description">
@@ -258,20 +325,31 @@
       </div>
       <div class="requirements">
         <form class="user_information">
-          <input type="text" required placeholder="Name (Required)" />
+          <input
+            class="input_name"
+            type="text"
+            required
+            placeholder="Name (Required)"
+          />
           <br />
-          <input type="email" required placeholder="Email (Required)" />
+          <input
+            class="input_mail"
+            type="email"
+            required
+            placeholder="Email (Required)"
+          />
           <br />
-          <input type="text" placeholder="Subject" />
+          <input class="input_subject" type="text" placeholder="Subject" />
           <br />
           <textarea
+            class="textarea_description"
             name="Text1"
             cols="40"
             rows="5"
             placeholder="Describe your project in detail..."
           ></textarea>
           <br />
-          <input type="submit" value="Send" />
+          <button>Send</button>
         </form>
         <div class="contact">
           <div class="contact_header">Contact Information</div>
@@ -305,5 +383,6 @@
         </div>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
