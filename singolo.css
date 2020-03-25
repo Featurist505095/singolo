@@ -13,6 +13,11 @@
   padding: 0px;
 }
 
+@media (min-width: 480px) and (max-width: 1020px) {
+  body {
+  }
+}
+
 #top_wrapper {
   width: 1020px;
   margin: 0 auto;
@@ -53,6 +58,14 @@ header h1 .red {
   padding-top: 46px;
   font-size: 12px;
   line-height: 6px;
+}
+
+#top_wrapper header menu div {
+  color: #ffffff;
+  font-family: 'Lato';
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
 }
 
 #top_wrapper header menu div a {
@@ -105,7 +118,7 @@ header h1 .red {
 
 .slider .vertical .phone {
   position: absolute;
-  left: 70px;
+  left: 110px;
   top: 52px;
   border-radius: 5px;
 }
@@ -119,7 +132,7 @@ header h1 .red {
   width: 188px;
   height: 333px;
   display: inherit;
-  left: 86px;
+  left: 126px;
   top: 118px;
   z-index: 5;
   box-shadow: 0px 0px 0px 3px #acacac;
@@ -133,7 +146,7 @@ header h1 .red {
 
 .slider .horizontal .phone {
   position: absolute;
-  left: 384px;
+  left: 424px;
   top: 173px;
   border-radius: 5px;
 }
@@ -147,7 +160,7 @@ header h1 .red {
   width: 333px;
   height: 188px;
   display: inherit;
-  left: 445px;
+  left: 485px;
   top: 188px;
   z-index: 5;
   box-shadow: 0px 0px 0px 3px #acacac;
@@ -250,9 +263,7 @@ header h1 .red {
 
 .portfolio header {
   margin: 0px auto;
-  padding-top: 68px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 68px 40px 2px;
   background-color: #2d2f39;
 }
 
@@ -281,6 +292,7 @@ header h1 .red {
 .portfolio header menu {
   display: flex;
   padding-bottom: 17px;
+  padding-left: 1px;
   font-size: 12px;
   line-height: 22px;
   color: #767e9e;
@@ -290,9 +302,10 @@ header h1 .red {
 }
 
 .portfolio header .menu_buttons {
+  height: 22px;
   display: block;
   box-sizing: border-box;
-  padding: 0px 7px;
+  padding: 0px 6.6px;
   margin-right: 10px;
   border: 1px solid #767e9e;
   border-radius: 5px;
@@ -307,7 +320,7 @@ header h1 .red {
 .portfolio main {
   height: 620px;
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 20px;
   padding-bottom: 54px;
   background-color: #2d2f39;
   box-shadow: 0px -6px 0px 0px #323746 inset;
@@ -324,7 +337,7 @@ header h1 .red {
 
 .portfolio main .content img {
   margin-bottom: 20px;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .portfolio main .content img.none {
