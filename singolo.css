@@ -13,11 +13,6 @@
   padding: 0px;
 }
 
-@media (min-width: 480px) and (max-width: 1020px) {
-  body {
-  }
-}
-
 #top_wrapper {
   width: 1020px;
   margin: 0 auto;
@@ -49,7 +44,7 @@ header h1 .red {
 }
 
 #top_wrapper header menu {
-  width: 371px;
+  width: 375px;
   display: flex;
   justify-content: space-between;
 }
@@ -119,7 +114,7 @@ header h1 .red {
 .slider .vertical .phone {
   position: absolute;
   left: 110px;
-  top: 52px;
+  top: 53px;
   border-radius: 5px;
 }
 
@@ -147,7 +142,7 @@ header h1 .red {
 .slider .horizontal .phone {
   position: absolute;
   left: 424px;
-  top: 173px;
+  top: 176px;
   border-radius: 5px;
 }
 
@@ -205,11 +200,12 @@ header h1 .red {
   color: #767e9e;
   font-family: 'Lato';
   font-weight: 300;
-  text-align: justify;
+  text-align: left;
+  letter-spacing: 0.2px;
 }
 
 .services .privileges {
-  padding-top: 47px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -217,15 +213,11 @@ header h1 .red {
 
 .services .privileges .privileges_item {
   display: flex;
-  width: 301.5px;
+  width: 300px;
 }
 
 .services .privileges .privileges_item_text {
-  padding-left: 18px;
-}
-
-.services .privileges .privileges_item img {
-  padding-top: 2px;
+  padding-left: 20px;
 }
 
 .services .privileges .privileges_item_text h3 {
@@ -238,8 +230,8 @@ header h1 .red {
 }
 
 .services .privileges .privileges_item_text div {
-  width: 219px;
-  height: 85px;
+  width: 220px;
+  height: 86px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 12px;
@@ -248,6 +240,7 @@ header h1 .red {
   font-family: 'Lato';
   font-weight: 400;
   text-align: justify;
+  letter-spacing: 0.1px;
   overflow: hidden;
 }
 
@@ -287,6 +280,7 @@ header h1 .red {
   font-family: 'Lato';
   font-weight: 300;
   text-align: left;
+  letter-spacing: 0.2px;
 }
 
 .portfolio header menu {
@@ -318,7 +312,7 @@ header h1 .red {
 }
 
 .portfolio main {
-  height: 620px;
+  height: 621px;
   padding-left: 40px;
   padding-right: 20px;
   padding-bottom: 54px;
@@ -370,16 +364,17 @@ header h1 .red {
   padding-top: 27px;
   width: 940px;
   height: 57px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
   font-size: 18px;
   line-height: 30px;
   color: #767e9e;
-  font-family: 'Lato';
-  font-weight: 300;
-  text-align: justify;
+  letter-spacing: 0.2px;
 }
 
 .about_us .about .about_persons {
-  margin-top: 48px;
+  margin-top: 47px;
   display: flex;
   justify-content: space-between;
 }
@@ -387,11 +382,7 @@ header h1 .red {
 .about_us .about .about_persons .photo {
   width: 300px;
   height: 300px;
-  margin-right: 19px;
-}
-
-.about_us .about .third {
-  margin-left: 2px;
+  margin-right: 20px;
 }
 
 .about_us .about .about_persons .persons_name {
@@ -410,16 +401,19 @@ header h1 .red {
 .about_us .about .about_persons .persons_description {
   width: 300px;
   margin-top: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
   font-size: 12px;
   line-height: 22px;
-  color: #767e9e;
-  font-family: 'Lato';
-  font-weight: 400;
   text-align: justify;
+  color: #767e9e;
+  letter-spacing: 0.2px;
 }
 
 .about_us .about .about_persons .persons_links {
   margin-top: 21px;
+  margin-left: -1px;
 }
 
 .about_us .about .about_persons .persons_links img {
@@ -446,6 +440,7 @@ header h1 .red {
   font-family: 'Lato-Bold';
   font-weight: 900;
   text-align: left;
+  letter-spacing: 0.3px;
 }
 
 .quote .description {
@@ -456,7 +451,7 @@ header h1 .red {
   color: #f0d8d9;
   font-family: 'Lato';
   font-weight: 300;
-  text-align: justify;
+  letter-spacing: 0.2px;
 }
 
 .requirements {
@@ -474,7 +469,7 @@ header h1 .red {
 }
 
 .requirements form input {
-  width: 604px;
+  width: 605px;
   height: 38px;
   margin-bottom: 16px;
   padding-left: 15px;
@@ -499,8 +494,8 @@ header h1 .red {
 }
 
 .requirements form textarea {
-  width: 604px;
-  height: 194px;
+  width: 605px;
+  height: 151px;
   padding-left: 15px;
   padding-top: 8px;
   border-radius: 5px;
@@ -509,12 +504,20 @@ header h1 .red {
 }
 
 .requirements form button {
-  width: 604px;
+  width: 136px;
   height: 38px;
+  margin-top: 10px;
   border-radius: 5px;
   border-style: none;
-  background-color: #d6564f;
-  box-shadow: 2px 2px 0px 2px rgba(34, 60, 80, 1);
+  background: #fbc65f;
+  font-family: 'Lato-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #886a30;
 }
 
 .requirements form textarea::placeholder {
@@ -529,7 +532,7 @@ header h1 .red {
 
 .requirements .contact {
   margin-top: 14px;
-  margin-left: 21px;
+  margin-left: 20px;
 }
 
 .requirements .contact .contact_header {
@@ -551,13 +554,13 @@ header h1 .red {
   font-family: 'Lato';
   font-weight: 400;
   text-align: justify;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.25px;
   line-height: 1.84;
 }
 
 .requirements .contact .contact_place {
-  margin-top: 9px;
-  margin-left: 3px;
+  margin-top: 10px;
+  margin-left: 2px;
 }
 
 .requirements .contact .contact_place span {
@@ -569,11 +572,7 @@ header h1 .red {
   font-family: 'Lato';
   font-weight: 400;
   text-align: left;
-}
-
-.requirements .contact .contact_phone {
-  margin-top: -1px;
-  margin-left: 1px;
+  letter-spacing: 0.25px;
 }
 
 .requirements .contact .contact_phone a {
@@ -586,6 +585,11 @@ header h1 .red {
   font-weight: 400;
   text-align: left;
   text-decoration: none;
+  letter-spacing: 0.25px;
+}
+
+.requirements .contact .contact_mail {
+  margin-top: -1px;
 }
 
 .requirements .contact .contact_mail a {
@@ -602,25 +606,27 @@ header h1 .red {
 }
 
 footer {
-  width: 942px;
+  width: 940px;
   height: 76px;
   margin-top: 6px;
   padding-left: 40px;
-  padding-right: 38px;
+  padding-right: 40px;
   display: flex;
   justify-content: space-between;
   background-color: #2d303a;
 }
 
 footer .copyright {
-  margin-top: 27px;
-  margin-left: 1px;
-  font-size: 12px;
-  line-height: 22px;
-  color: #666d89;
+  margin-top: 1px;
   font-family: 'Lato';
-  font-weight: 400;
-  text-align: left;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #666d89;
+  letter-spacing: 0.25px;
 }
 
 footer .links {
