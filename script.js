@@ -1,3 +1,17 @@
+//top menu width >765px
+let altMenuButton = document.querySelector('header div.alternative_menu');
+let altMenuChecker = 0;
+
+altMenuButton.addEventListener('click', cur => {
+  if (altMenuChecker === 0) {
+    altMenuButton.classList.add('menu_clicked');
+    altMenuChecker = 1;
+  } else {
+    altMenuButton.classList.remove('menu_clicked');
+    altMenuChecker = 0;
+  }
+});
+
 //top menu color changer
 let selectedHeader = document.querySelector('menu div.selected');
 let allHeaderMenuElements = document.querySelectorAll('#top_wrapper menu div');
