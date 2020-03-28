@@ -20,12 +20,14 @@
 
   #top_wrapper header {
     position: relative;
+
     height: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+
     display: flex;
     justify-content: center;
     background-color: #2d303a;
-    padding-left: 40px;
-    padding-right: 40px;
     box-shadow: 0px 6px 0px 0px #323746;
   }
 
@@ -38,31 +40,35 @@
   #top_wrapper header .alternative_menu img {
     position: absolute;
     z-index: 30;
+
     cursor: pointer;
   }
 
   #top_wrapper header .alternative_menu.menu_clicked menu {
     position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 25;
+
+    height: 100vh;
+    width: 100%;
+    padding-top: 205px;
+
     display: block;
     background: linear-gradient(
       to right,
       #2d303a 74.1%,
       rgba(0, 0, 0, 0.4) 74.1%
     );
-    height: 100vh;
-    width: 100%;
-    padding-top: 205px;
-    z-index: 25;
-    top: 0px;
-    left: 0px;
   }
 
   #top_wrapper header .alternative_menu.menu_clicked h1 {
-    display: block;
     position: absolute;
-    z-index: 31;
     top: 0px;
     left: 62px;
+    z-index: 31;
+
+    display: block;
   }
 
   #top_wrapper header .alternative_menu.menu_clicked img {
@@ -78,7 +84,9 @@
   }
 
   header .alternative_menu.menu_clicked menu a {
+    margin: 0px 27px;
     padding-left: 44px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: bold;
@@ -89,13 +97,12 @@
     flex: none;
     order: 0;
     align-self: center;
-    margin: 0px 27px;
     text-decoration: none;
   }
 
   header h1 {
-    padding-top: 25px;
-    padding-left: 10px;
+    padding: 25px 0px 0px 10px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: bold;
@@ -115,6 +122,7 @@
 
   #top_wrapper header menu div {
     padding-top: 44px;
+
     font-size: 12px;
     line-height: 6px;
   }
@@ -140,17 +148,19 @@
   }
 
   .slider {
+    position: relative;
+
     height: 214px;
     margin-top: 6px;
-    padding-left: 40px;
-    padding-right: 40px;
-    position: relative;
+    padding: 0px 40px;
+
     background-color: #f06c64;
     box-shadow: 0px 6px 0px 0px #ea676b;
   }
 
   .slider div.slide {
     margin-left: -40px;
+
     opacity: 0;
     transition: opacity 1s;
   }
@@ -181,10 +191,12 @@
 
   .slider .vertical .phone {
     position: absolute;
-    width: 89px;
-    height: 177px;
     left: 12%;
     top: 20px;
+
+    width: 89px;
+    height: 177px;
+
     border-radius: 5px;
   }
 
@@ -194,14 +206,16 @@
 
   .slider .vertical .image.display {
     position: absolute;
-    width: 68px;
-    height: 121px;
-    display: inherit;
     left: 13.8%;
     top: 45px;
     z-index: 5;
-    box-shadow: 0px 0px 0px 1px #acacac;
+
+    width: 68px;
+    height: 121px;
     border-radius: 1px;
+
+    display: inherit;
+    box-shadow: 0px 0px 0px 1px #acacac;
   }
 
   .slider .horizontal {
@@ -211,10 +225,11 @@
 
   .slider .horizontal .phone {
     position: absolute;
-    width: 178px;
-    height: 88px;
     left: 46.4%;
     top: 65px;
+
+    width: 178px;
+    height: 88px;
     border-radius: 5px;
   }
 
@@ -224,14 +239,16 @@
 
   .slider .horizontal .image.display {
     position: absolute;
-    width: 121px;
-    height: 67px;
-    display: inherit;
     left: 53%;
     top: 71px;
     z-index: 5;
-    box-shadow: 0px 0px 0px 1px #acacac;
+
+    width: 121px;
+    height: 67px;
     border-radius: 1px;
+
+    display: inherit;
+    box-shadow: 0px 0px 0px 1px #acacac;
   }
 
   .slider .right {
@@ -246,9 +263,8 @@
   }
 
   .services {
-    padding-top: 41px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 41px 32px 0px;
+
     background-color: #f2f2f2;
     box-shadow: 0px -6px 0px 0px #ffffff inset;
   }
@@ -265,6 +281,7 @@
   .services .description {
     width: 100%;
     padding-top: 27px;
+
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -275,19 +292,21 @@
   }
 
   .services .privileges {
+    height: 714px;
     width: 311px;
     margin: 0px auto;
     padding-top: 29px;
-    height: 714px;
+
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
 
   .services .privileges .privileges_item {
-    display: flex;
     width: 300px;
     margin-bottom: 26.6px;
+
+    display: flex;
   }
 
   .services .privileges .privileges_item:nth-child(2n) {
@@ -300,6 +319,7 @@
 
   .services .privileges .privileges_item_text h3 {
     margin-top: -1px;
+
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
@@ -311,6 +331,7 @@
   .services .privileges .privileges_item_text div {
     width: 220px;
     padding-top: 10px;
+
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
@@ -329,11 +350,11 @@
 
   #top_wrapper header {
     height: 89px;
+    padding: 0px 40px;
+
     display: flex;
     justify-content: space-between;
     background-color: #2d303a;
-    padding-left: 40px;
-    padding-right: 40px;
     box-shadow: 0px 6px 0px 0px #323746;
   }
 
@@ -343,6 +364,7 @@
 
   header h1 {
     padding-top: 41px;
+
     font-size: 25px;
     line-height: 6px;
     color: #ffffff;
@@ -358,12 +380,14 @@
 
   #top_wrapper header menu {
     width: 375px;
+
     display: flex;
     justify-content: space-between;
   }
 
   #top_wrapper header menu div {
     padding-top: 44px;
+
     font-size: 12px;
     line-height: 6px;
   }
@@ -389,17 +413,19 @@
   }
 
   .slider {
+    position: relative;
+
     height: 445px;
     margin-top: 6px;
-    padding-left: 40px;
-    padding-right: 40px;
-    position: relative;
+    padding: 0px 40px;
+
     background-color: #f06c64;
     box-shadow: 0px 6px 0px 0px #ea676b;
   }
 
   .slider div.slide {
     margin-left: -40px;
+
     opacity: 0;
     transition: opacity 1s;
   }
@@ -430,10 +456,11 @@
 
   .slider .vertical .phone {
     position: absolute;
-    width: 181px;
-    height: 364px;
     left: 11.5%;
     top: 40px;
+
+    width: 181px;
+    height: 364px;
     border-radius: 5px;
   }
 
@@ -443,14 +470,16 @@
 
   .slider .vertical .image.display {
     position: absolute;
-    width: 140px;
-    height: 249px;
-    display: inherit;
     left: 13.1%;
     top: 90px;
     z-index: 5;
-    box-shadow: 0px 0px 0px 3px #acacac;
+
+    width: 140px;
+    height: 249px;
     border-radius: 1px;
+
+    display: inherit;
+    box-shadow: 0px 0px 0px 3px #acacac;
   }
 
   .slider .horizontal {
@@ -460,10 +489,11 @@
 
   .slider .horizontal .phone {
     position: absolute;
-    width: 364px;
-    height: 181px;
     left: 43.8%;
     top: 133px;
+
+    width: 364px;
+    height: 181px;
     border-radius: 5px;
   }
 
@@ -473,14 +503,16 @@
 
   .slider .horizontal .image.display {
     position: absolute;
-    width: 248px;
-    height: 140px;
-    display: inherit;
     left: 50.1%;
     top: 144px;
     z-index: 5;
-    box-shadow: 0px 0px 0px 3px #acacac;
+
+    width: 248px;
+    height: 140px;
     border-radius: 1px;
+
+    display: inherit;
+    box-shadow: 0px 0px 0px 3px #acacac;
   }
 
   .slider .right {
@@ -495,10 +527,8 @@
   }
 
   .services {
-    padding-top: 55px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 22px;
+    padding: 55px 40px 22px;
+
     background-color: #f2f2f2;
     box-shadow: 0px -6px 0px 0px #ffffff inset;
   }
@@ -515,6 +545,7 @@
   .services .description {
     width: 100%;
     padding-top: 27px;
+
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -525,17 +556,19 @@
   }
 
   .services .privileges {
-    padding-top: 37px;
     margin-left: 1px;
+    padding-top: 37px;
+
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
 
   .services .privileges .privileges_item {
-    display: flex;
     width: 300px;
     margin-bottom: 20px;
+
+    display: flex;
   }
 
   .services .privileges .privileges_item:nth-child(2n) {
@@ -558,8 +591,8 @@
   .services .privileges .privileges_item_text div {
     width: 220px;
     height: 86px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0px;
+
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
@@ -583,6 +616,7 @@
 
   .portfolio header h2 {
     padding-bottom: 28px;
+
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
@@ -594,6 +628,7 @@
 
   .portfolio header .description {
     width: 97%;
+
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -604,59 +639,57 @@
   }
 
   .portfolio header menu {
+    width: 300px;
+    padding: 11px 0px 17px 1px;
+
     display: flex;
-    padding-top: 11px;
-    padding-bottom: 17px;
-    padding-left: 1px;
+    justify-content: space-around;
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
     font-family: 'Lato';
     font-weight: 400;
     text-align: left;
-    justify-content: space-around;
-    width: 300px;
   }
 
   .portfolio header .menu_buttons {
     height: 22px;
-    display: block;
-    box-sizing: border-box;
-    padding: 0px 6.6px;
     margin-right: 10px;
+    padding: 0px 6.6px;
     border: 1px solid #767e9e;
     border-radius: 5px;
+
+    display: block;
+    box-sizing: border-box;
     cursor: pointer;
   }
 
   .portfolio header .selected {
-    color: #767e9e;
     border: 1px solid #c5c5c5;
+
+    color: #767e9e;
   }
 
   .portfolio main {
-    padding-top: 9px;
-    padding-left: 39px;
-    padding-right: 20px;
-    padding-bottom: 54px;
+    padding: 9px 20px 54px 39px;
+
     background-color: #2d2f39;
     box-shadow: 0px -6px 0px 0px #323746 inset;
   }
 
   .portfolio main .content {
+    width: 709px;
+    margin: 0px auto;
+
     display: flex;
     justify-content: flex-start;
     flex-flow: row wrap;
-    margin: 0px auto;
-
-    width: 709px;
   }
 
   .portfolio main .content img {
-    margin-bottom: 19.3px;
-    margin-right: 20px;
     width: 216px;
     height: 184px;
+    margin: 0px 20px 19.3px 0px;
   }
 
   .portfolio main .content img.none {
@@ -668,15 +701,15 @@
   }
 
   .about_us {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 69px;
+    padding: 0px 40px 69px;
+
     background-color: #f1f1f1;
     box-shadow: 0px -6px 0px 0px #ffffff inset;
   }
 
   .about_us .about .about_header {
     padding-top: 61px;
+
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
@@ -686,9 +719,10 @@
   }
 
   .about_us .about .about_description {
-    padding-top: 27px;
     width: 100%;
     height: 57px;
+    padding-top: 27px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -699,8 +733,8 @@
   }
 
   .about_us .about .about_persons {
-    margin-top: 71px;
-    margin-left: 1px;
+    margin: 71px 0px 0px 1px;
+
     display: flex;
     justify-content: space-between;
   }
@@ -715,6 +749,7 @@
     width: 219px;
     height: 18px;
     margin-top: 8px;
+
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
@@ -727,6 +762,7 @@
   .about_us .about .about_persons .persons_description {
     width: 220px;
     margin-top: 3px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
@@ -743,6 +779,7 @@
 
   .about_us .about .about_persons .persons_links img {
     margin-right: 1px;
+
     cursor: pointer;
   }
 }
@@ -755,11 +792,11 @@
 
   #top_wrapper header {
     height: 89px;
+    padding: 0px 40px;
+
     display: flex;
     justify-content: space-between;
     background-color: #2d303a;
-    padding-left: 40px;
-    padding-right: 40px;
     box-shadow: 0px 6px 0px 0px #323746;
   }
 
@@ -769,6 +806,7 @@
 
   header h1 {
     padding-top: 40px;
+
     font-size: 25px;
     line-height: 6px;
     color: #ffffff;
@@ -784,12 +822,14 @@
 
   #top_wrapper header menu {
     width: 375px;
+
     display: flex;
     justify-content: space-between;
   }
 
   #top_wrapper header menu div {
     padding-top: 46px;
+
     font-size: 12px;
     line-height: 6px;
   }
@@ -815,17 +855,19 @@
   }
 
   .slider {
+    position: relative;
+
     height: 594px;
     margin-top: 6px;
-    padding-left: 40px;
-    padding-right: 40px;
-    position: relative;
+    padding: 0px 40px;
+
     background-color: #f06c64;
     box-shadow: 0px 6px 0px 0px #ea676b;
   }
 
   .slider div.slide {
     margin-left: -40px;
+
     opacity: 0;
     transition: opacity 1s;
   }
@@ -854,6 +896,7 @@
     position: absolute;
     left: 112px;
     top: 54px;
+
     border-radius: 5px;
   }
 
@@ -863,14 +906,16 @@
 
   .slider .vertical .image.display {
     position: absolute;
-    width: 188px;
-    height: 333px;
-    display: inherit;
     left: 126px;
     top: 118px;
     z-index: 5;
-    box-shadow: 0px 0px 0px 3px #acacac;
+
+    width: 188px;
+    height: 333px;
     border-radius: 1px;
+
+    display: inherit;
+    box-shadow: 0px 0px 0px 3px #acacac;
   }
 
   .slider .horizontal {
@@ -882,6 +927,7 @@
     position: absolute;
     left: 425px;
     top: 177px;
+
     border-radius: 5px;
   }
 
@@ -891,14 +937,16 @@
 
   .slider .horizontal .image.display {
     position: absolute;
-    width: 333px;
-    height: 188px;
-    display: inherit;
     left: 485px;
     top: 188px;
     z-index: 5;
-    box-shadow: 0px 0px 0px 3px #acacac;
+
+    width: 333px;
+    height: 188px;
     border-radius: 1px;
+
+    display: inherit;
+    box-shadow: 0px 0px 0px 3px #acacac;
   }
 
   .slider .right {
@@ -914,9 +962,8 @@
 
   .services {
     height: 432px;
-    padding-top: 74px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 74px 40px 0px;
+
     background-color: #f2f2f2;
     box-shadow: 0px -6px 0px 0px #ffffff inset;
   }
@@ -934,6 +981,7 @@
     width: 940px;
     height: 57px;
     padding-top: 27px;
+
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -945,14 +993,16 @@
 
   .services .privileges {
     padding-top: 50px;
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
 
   .services .privileges .privileges_item {
-    display: flex;
     width: 300px;
+
+    display: flex;
   }
 
   .services .privileges .privileges_item_text {
@@ -971,8 +1021,8 @@
   .services .privileges .privileges_item_text div {
     width: 220px;
     height: 86px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0px;
+
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
@@ -984,25 +1034,27 @@
   }
 
   .services .privileges .third {
-    padding-left: 20px;
     width: 300px;
+    padding-left: 20px;
   }
 }
 
 @media (min-width: 1020px) {
   #middle_wrapper {
-    margin: 0 auto;
     width: 1020px;
+    margin: 0 auto;
   }
 
   .portfolio header {
     margin: 0px auto;
     padding: 68px 40px 2px;
+
     background-color: #2d2f39;
   }
 
   .portfolio header h2 {
     padding-bottom: 28px;
+
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
@@ -1015,6 +1067,7 @@
   .portfolio header .description {
     width: 940px;
     height: 40px;
+
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -1025,9 +1078,9 @@
   }
 
   .portfolio header menu {
+    padding: 0px 0px 17px 1px;
+
     display: flex;
-    padding-bottom: 17px;
-    padding-left: 1px;
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
@@ -1038,43 +1091,44 @@
 
   .portfolio header .menu_buttons {
     height: 22px;
-    display: block;
-    box-sizing: border-box;
-    padding: 0px 6.6px;
     margin-right: 10px;
+    padding: 0px 6.6px;
     border: 1px solid #767e9e;
     border-radius: 5px;
+
+    display: block;
+    box-sizing: border-box;
     cursor: pointer;
   }
 
   .portfolio header .selected {
-    color: #767e9e;
     border: 1px solid #c5c5c5;
+
+    color: #767e9e;
   }
 
   .portfolio main {
     height: 621px;
-    padding-left: 40px;
-    padding-right: 20px;
-    padding-bottom: 54px;
+    padding: 0px 20px 54px 40px;
+
     background-color: #2d2f39;
     box-shadow: 0px -6px 0px 0px #323746 inset;
   }
 
   .portfolio main .content {
+    max-width: 1020px;
     margin-bottom: 53px;
+
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     flex-flow: row wrap;
-    max-width: 1020px;
   }
 
   .portfolio main .content img {
-    margin-bottom: 20px;
-    margin-right: 20px;
     width: 220px;
     height: 187px;
+    margin: 0px 20px 20px 0px;
   }
 
   .portfolio main .content img.none {
@@ -1086,15 +1140,15 @@
   }
 
   .about_us {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 67px;
+    padding: 0px 40px 67px;
+
     background-color: #f1f1f1;
     box-shadow: 0px -6px 0px 0px #ffffff inset;
   }
 
   .about_us .about .about_header {
     padding-top: 68px;
+
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
@@ -1104,9 +1158,10 @@
   }
 
   .about_us .about .about_description {
-    padding-top: 27px;
     width: 940px;
     height: 57px;
+    padding-top: 27px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -1118,6 +1173,7 @@
 
   .about_us .about .about_persons {
     margin-top: 47px;
+
     display: flex;
     justify-content: space-between;
   }
@@ -1132,6 +1188,7 @@
     width: 319px;
     height: 18px;
     margin-top: 13px;
+
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
@@ -1144,6 +1201,7 @@
   .about_us .about .about_persons .persons_description {
     width: 300px;
     margin-top: 10px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
@@ -1155,12 +1213,12 @@
   }
 
   .about_us .about .about_persons .persons_links {
-    margin-top: 21px;
-    margin-left: -1px;
+    margin: 21px 0px 0px -1px;
   }
 
   .about_us .about .about_persons .persons_links img {
     margin-right: 1px;
+
     cursor: pointer;
   }
 }
@@ -1172,11 +1230,13 @@
 
   .portfolio header {
     padding: 51px 30px 2px;
+
     background-color: #2d2f39;
   }
 
   .portfolio header h2 {
     padding-bottom: 28px;
+
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
@@ -1189,6 +1249,7 @@
   .portfolio header .description {
     width: 98.3%;
     height: 105px;
+
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -1199,9 +1260,9 @@
   }
 
   .portfolio header menu {
+    padding: 0px 0px 17px 1px;
+
     display: flex;
-    padding-bottom: 17px;
-    padding-left: 1px;
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
@@ -1212,48 +1273,48 @@
 
   .portfolio header .menu_buttons {
     height: 22px;
-    display: block;
-    box-sizing: border-box;
-    padding: 0px 6.6px;
     margin-right: 10px;
+    padding: 0px 6.6px;
     border: 1px solid #767e9e;
     border-radius: 5px;
+
+    display: block;
+    box-sizing: border-box;
     cursor: pointer;
   }
 
   .portfolio header .selected {
-    color: #767e9e;
     border: 1px solid #c5c5c5;
+
+    color: #767e9e;
   }
 
   .portfolio main {
     height: 541px;
-    padding-top: 1px;
-    padding-left: 25px;
-    padding-right: 12px;
-    padding-bottom: 59px;
+    padding: 1px 12px 59px 25px;
+
     background-color: #2d2f39;
     box-shadow: 0px -6px 0px 0px #323746 inset;
     overflow: hidden;
   }
 
   .portfolio main .content {
-    padding: 5px;
-    margin: 0px auto 53px;
+    max-width: 328px;
     height: 560px;
+    margin: 0px auto 53px;
+    padding: 5px;
+
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     flex-flow: row wrap;
-    max-width: 328px;
     overflow: hidden;
   }
 
   .portfolio main .content img {
-    margin-bottom: 14px;
-    margin-right: 13px;
     width: 151px;
     height: 128px;
+    margin: 0px 13px 14px 0px;
   }
 
   .portfolio main .content img.none {
@@ -1265,15 +1326,15 @@
   }
 
   .about_us {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 11px;
+    padding: 0px 30px 11px;
+
     background-color: #f1f1f1;
     box-shadow: 0px -6px 0px 0px #ffffff inset;
   }
 
   .about_us .about .about_header {
     padding-top: 43px;
+
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
@@ -1283,8 +1344,9 @@
   }
 
   .about_us .about .about_description {
-    padding-top: 27px;
     width: 100%;
+    padding-top: 27px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -1297,6 +1359,7 @@
   .about_us .about .about_persons {
     width: 314px;
     margin: 23px auto 1px;
+
     display: flex;
     flex-flow: row wrap;
   }
@@ -1314,6 +1377,7 @@
     width: 319px;
     height: 18px;
     margin-top: 14px;
+
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
@@ -1326,6 +1390,7 @@
   .about_us .about .about_persons .persons_description {
     width: 98.5%;
     margin-top: 3px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
@@ -1337,12 +1402,12 @@
   }
 
   .about_us .about .about_persons .persons_links {
-    margin-top: 10px;
-    margin-left: -1px;
+    margin: 10px 0px 0px -1px;
   }
 
   .about_us .about .about_persons .persons_links img {
     margin-right: 1px;
+
     cursor: pointer;
   }
 }
@@ -1353,13 +1418,14 @@
   }
 
   .quote {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0px 30px;
+
     background-color: #f06c64;
   }
 
   .quote h1 {
     padding-top: 53px;
+
     font-size: 30px;
     line-height: 18px;
     color: #f0d8d9;
@@ -1371,6 +1437,7 @@
 
   .quote .description {
     padding-top: 27px;
+
     font-size: 18px;
     line-height: 30px;
     color: #f0d8d9;
@@ -1380,19 +1447,17 @@
   }
 
   .requirements {
+    padding: 9px 30px 40px;
+
     display: flex;
     flex-flow: row wrap;
-    padding-top: 9px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 40px;
     background-color: #f06c64;
     box-shadow: 0px 6px 0px 0px #ea676b;
   }
 
   .requirements form {
-    margin-top: 14px;
     width: 100%;
+    margin-top: 14px;
   }
 
   .requirements form input {
@@ -1402,6 +1467,7 @@
     padding-left: 7px;
     border-radius: 5px;
     border-style: none;
+
     background-color: #d6564f;
     font-size: 12px;
     line-height: 22px;
@@ -1423,10 +1489,10 @@
   .requirements form textarea {
     width: 97.9%;
     height: 154px;
-    padding-left: 7px;
-    padding-top: 5px;
+    padding: 5px 0px 0px 7px;
     border-radius: 5px;
     border-style: none;
+
     background-color: #d6564f;
   }
 
@@ -1436,6 +1502,7 @@
     margin-top: 10px;
     border-radius: 5px;
     border-style: none;
+
     background: #fbc65f;
     font-family: 'Lato-Bold';
     font-style: normal;
@@ -1443,7 +1510,6 @@
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-
     color: #886a30;
   }
 
@@ -1472,6 +1538,7 @@
 
   .requirements .contact .contact_description {
     margin-top: 3px;
+
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -1483,9 +1550,10 @@
   }
 
   .requirements .contact .contact_place {
-    display: flex;
     margin-top: 14px;
     margin-left: 2px;
+
+    display: flex;
   }
 
   .requirements .contact .contact_place img {
@@ -1495,8 +1563,9 @@
   }
 
   .requirements .contact .contact_place span {
-    display: block;
     margin-left: 13px;
+
+    display: block;
     font-size: 12px;
     color: #f0d8d9;
     font-family: 'Lato';
@@ -1516,9 +1585,9 @@
   }
 
   .requirements .contact .contact_phone a {
+    margin: 10px 0px 0px 10px;
+
     display: block;
-    margin-top: 10px;
-    margin-left: 10px;
     font-size: 12px;
     color: #f0d8d9;
     font-family: 'Lato';
@@ -1539,9 +1608,9 @@
   }
 
   .requirements .contact .contact_mail a {
+    margin: 10px 0px 0px 10px;
+
     display: block;
-    margin-left: 10px;
-    margin-top: 10px;
     font-size: 12px;
     color: #f0d8d9;
     font-family: 'Lato';
@@ -1553,8 +1622,8 @@
 
   footer {
     margin-top: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0px 30px;
+
     display: flex;
     justify-content: space-between;
     background-color: #2d303a;
@@ -1570,6 +1639,7 @@
 
   footer .links img {
     margin-left: 1px;
+
     cursor: pointer;
   }
 }
@@ -1581,13 +1651,14 @@
   }
 
   .quote {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0px 40px;
+
     background-color: #f06c64;
   }
 
   .quote h1 {
     padding-top: 68px;
+
     font-size: 30px;
     line-height: 18px;
     color: #f0d8d9;
@@ -1600,6 +1671,7 @@
   .quote .description {
     width: 940px;
     padding-top: 27px;
+
     font-size: 18px;
     line-height: 30px;
     color: #f0d8d9;
@@ -1610,10 +1682,9 @@
 
   .requirements {
     min-height: 445px;
+    padding: 30px 40px 0px;
+
     display: flex;
-    padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
     background-color: #f06c64;
     box-shadow: 0px 6px 0px 0px #ea676b;
   }
@@ -1629,6 +1700,7 @@
     padding-left: 15px;
     border-radius: 5px;
     border-style: none;
+
     background-color: #d6564f;
     font-size: 12px;
     line-height: 22px;
@@ -1650,10 +1722,10 @@
   .requirements form textarea {
     width: 605px;
     height: 151px;
-    padding-left: 15px;
-    padding-top: 8px;
+    padding: 8px 0px 0px 15px;
     border-radius: 5px;
     border-style: none;
+
     background-color: #d6564f;
   }
 
@@ -1663,6 +1735,7 @@
     margin-top: 10px;
     border-radius: 5px;
     border-style: none;
+
     background: #fbc65f;
     font-family: 'Lato-Bold';
     font-style: normal;
@@ -1670,7 +1743,6 @@
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-
     color: #886a30;
   }
 
@@ -1685,8 +1757,7 @@
   }
 
   .requirements .contact {
-    margin-top: 14px;
-    margin-left: 20px;
+    margin: 14px 0px 0px 20px;
   }
 
   .requirements .contact .contact_header {
@@ -1702,6 +1773,7 @@
     width: 300px;
     height: 100px;
     margin-top: 10px;
+
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -1713,13 +1785,13 @@
   }
 
   .requirements .contact .contact_place {
-    margin-top: 10px;
-    margin-left: 2px;
+    margin: 10px 0px 0px 2px;
   }
 
   .requirements .contact .contact_place span {
-    display: inline-block;
     margin-left: 10px;
+
+    display: inline-block;
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -1730,8 +1802,9 @@
   }
 
   .requirements .contact .contact_phone a {
-    display: inline-block;
     margin-left: 7px;
+
+    display: inline-block;
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -1747,8 +1820,9 @@
   }
 
   .requirements .contact .contact_mail a {
-    display: inline-block;
     margin-left: 6px;
+
+    display: inline-block;
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -1763,8 +1837,8 @@
     width: 940px;
     height: 76px;
     margin-top: 6px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0px 40px;
+
     display: flex;
     justify-content: space-between;
     background-color: #2d303a;
@@ -1772,6 +1846,7 @@
 
   footer .copyright {
     margin-top: 1px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
@@ -1789,6 +1864,7 @@
 
   footer .links img {
     margin-left: 1px;
+
     cursor: pointer;
   }
 }
@@ -1799,13 +1875,14 @@
   }
 
   .quote {
-    padding-left: 42px;
-    padding-right: 40px;
+    padding: 0px 40px 0px 42px;
+
     background-color: #f06c64;
   }
 
   .quote h1 {
     padding-top: 62px;
+
     font-size: 30px;
     line-height: 18px;
     color: #f0d8d9;
@@ -1818,6 +1895,7 @@
   .quote .description {
     width: 100%;
     padding-top: 27px;
+
     font-size: 18px;
     line-height: 30px;
     color: #f0d8d9;
@@ -1827,11 +1905,9 @@
   }
 
   .requirements {
+    padding: 11px 40px 39px 39px;
+
     display: flex;
-    padding-top: 11px;
-    padding-left: 39px;
-    padding-right: 40px;
-    padding-bottom: 39px;
     background-color: #f06c64;
     box-shadow: 0px 6px 0px 0px #ea676b;
   }
@@ -1847,6 +1923,7 @@
     padding-left: 10px;
     border-radius: 5px;
     border-style: none;
+
     background-color: #d6564f;
     font-size: 12px;
     line-height: 22px;
@@ -1868,10 +1945,10 @@
   .requirements form textarea {
     width: 432px;
     height: 154px;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding: 5px 0px 0px 10px;
     border-radius: 5px;
     border-style: none;
+
     background-color: #d6564f;
   }
 
@@ -1881,6 +1958,7 @@
     margin-top: 13px;
     border-radius: 5px;
     border-style: none;
+
     background: #fbc65f;
     font-family: 'Lato-Bold';
     font-style: normal;
@@ -1888,7 +1966,6 @@
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-
     color: #886a30;
   }
 
@@ -1903,8 +1980,7 @@
   }
 
   .requirements .contact {
-    margin-top: 14px;
-    margin-left: 29px;
+    margin: 14px 0px 0px 29px;
   }
 
   .requirements .contact .contact_header {
@@ -1919,6 +1995,7 @@
   .requirements .contact .contact_description {
     height: 100px;
     margin-top: 3px;
+
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -1930,13 +2007,13 @@
   }
 
   .requirements .contact .contact_place {
-    margin-top: 43px;
-    margin-left: 2px;
+    margin: 43px 0px 0px 2px;
   }
 
   .requirements .contact .contact_place span {
-    display: inline-block;
     margin-left: 10px;
+
+    display: inline-block;
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -1947,8 +2024,9 @@
   }
 
   .requirements .contact .contact_phone a {
-    display: inline-block;
     margin-left: 7px;
+
+    display: inline-block;
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -1964,8 +2042,9 @@
   }
 
   .requirements .contact .contact_mail a {
-    display: inline-block;
     margin-left: 6px;
+
+    display: inline-block;
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
@@ -1980,6 +2059,7 @@
     width: 100%;
     height: 76px;
     margin-top: 6px;
+
     display: flex;
     justify-content: space-between;
     background-color: #2d303a;
@@ -1988,6 +2068,7 @@
   footer .copyright {
     margin-top: 1px;
     padding-left: 40px;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
@@ -2006,6 +2087,7 @@
 
   footer .links img {
     margin-left: 1px;
+
     cursor: pointer;
   }
 }
