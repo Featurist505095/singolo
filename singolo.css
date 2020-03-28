@@ -14,6 +14,21 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1019px) {
+}
+
+@media (min-width: 768px) and (max-width: 1019px) {
+}
+
+@media (min-width: 1020px) {
+}
+
+@media (min-width: 1020px) {
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
   #top_wrapper {
     min-width: 375px;
   }
@@ -341,6 +356,423 @@
     letter-spacing: 0.1px;
     overflow: hidden;
   }
+
+  #middle_wrapper {
+    min-width: 375px;
+  }
+
+  .portfolio header {
+    padding: 51px 30px 2px;
+
+    background-color: #2d2f39;
+  }
+
+  .portfolio header h2 {
+    padding-bottom: 28px;
+
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.7px;
+  }
+
+  .portfolio header .description {
+    width: 98.3%;
+    height: 105px;
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: 'Lato';
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.1px;
+  }
+
+  .portfolio header menu {
+    padding: 0px 0px 17px 1px;
+
+    display: flex;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .portfolio header .menu_buttons {
+    height: 22px;
+    margin-right: 10px;
+    padding: 0px 6.6px;
+    border: 1px solid #767e9e;
+    border-radius: 5px;
+
+    display: block;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .portfolio header .selected {
+    border: 1px solid #c5c5c5;
+
+    color: #767e9e;
+  }
+
+  .portfolio main {
+    height: 541px;
+    padding: 1px 12px 59px 25px;
+
+    background-color: #2d2f39;
+    box-shadow: 0px -6px 0px 0px #323746 inset;
+    overflow: hidden;
+  }
+
+  .portfolio main .content {
+    max-width: 328px;
+    height: 560px;
+    margin: 0px auto 53px;
+    padding: 5px;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    overflow: hidden;
+  }
+
+  .portfolio main .content img {
+    width: 151px;
+    height: 128px;
+    margin: 0px 13px 14px 0px;
+  }
+
+  .portfolio main .content img.none {
+    display: none;
+  }
+
+  .portfolio main .content img.clicked {
+    box-shadow: 0px 0px 0px 5px #f06c64;
+  }
+
+  .about_us {
+    padding: 0px 30px 11px;
+
+    background-color: #f1f1f1;
+    box-shadow: 0px -6px 0px 0px #ffffff inset;
+  }
+
+  .about_us .about .about_header {
+    padding-top: 43px;
+
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: 'Lato-Bold';
+    text-align: left;
+    letter-spacing: 0.1px;
+  }
+
+  .about_us .about .about_description {
+    width: 100%;
+    padding-top: 27px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    letter-spacing: 0.2px;
+  }
+
+  .about_us .about .about_persons {
+    width: 314px;
+    margin: 23px auto 1px;
+
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .about_us .about .about_persons .persons {
+    margin-bottom: 28px;
+  }
+
+  .about_us .about .about_persons .photo {
+    width: 314px;
+    height: 314px;
+  }
+
+  .about_us .about .about_persons .persons_name {
+    width: 319px;
+    height: 18px;
+    margin-top: 14px;
+
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+    text-align: left;
+    overflow: hidden;
+  }
+
+  .about_us .about .about_persons .persons_description {
+    width: 98.5%;
+    margin-top: 3px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    color: #767e9e;
+    letter-spacing: 0.2px;
+  }
+
+  .about_us .about .about_persons .persons_links {
+    margin: 10px 0px 0px -1px;
+  }
+
+  .about_us .about .about_persons .persons_links img {
+    margin-right: 1px;
+
+    cursor: pointer;
+  }
+
+  #bottom_wrapper {
+    min-width: 375px;
+  }
+
+  .quote {
+    padding: 0px 30px;
+
+    background-color: #f06c64;
+  }
+
+  .quote h1 {
+    padding-top: 53px;
+
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.3px;
+  }
+
+  .quote .description {
+    padding-top: 27px;
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 300;
+    letter-spacing: 0.2px;
+  }
+
+  .requirements {
+    padding: 9px 30px 40px;
+
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #f06c64;
+    box-shadow: 0px 6px 0px 0px #ea676b;
+  }
+
+  .requirements form {
+    width: 100%;
+    margin-top: 14px;
+  }
+
+  .requirements form input {
+    width: 97.9%;
+    height: 38px;
+    margin-bottom: 12px;
+    padding-left: 7px;
+    border-radius: 5px;
+    border-style: none;
+
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .requirements form input:first {
+    margin-top: 14px;
+    padding-left: 13px;
+  }
+
+  .requirements form input::placeholder {
+    color: #f48c8f;
+  }
+
+  .requirements form textarea {
+    width: 97.9%;
+    height: 154px;
+    padding: 5px 0px 0px 7px;
+    border-radius: 5px;
+    border-style: none;
+
+    background-color: #d6564f;
+  }
+
+  .requirements form button {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+
+    background: #fbc65f;
+    font-family: 'Lato-Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #886a30;
+  }
+
+  .requirements form textarea::placeholder {
+    color: #f48c8f;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.1px;
+  }
+
+  .requirements .contact {
+    margin-top: 32px;
+  }
+
+  .requirements .contact .contact_header {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+    text-align: left;
+  }
+
+  .requirements .contact .contact_description {
+    margin-top: 3px;
+
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0.25px;
+    line-height: 1.84;
+  }
+
+  .requirements .contact .contact_place {
+    margin-top: 14px;
+    margin-left: 2px;
+
+    display: flex;
+  }
+
+  .requirements .contact .contact_place img {
+    width: 8px;
+    height: 13px;
+    margin-top: 2px;
+  }
+
+  .requirements .contact .contact_place span {
+    margin-left: 13px;
+
+    display: block;
+    font-size: 12px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.25px;
+  }
+
+  .requirements .contact .contact_phone {
+    display: flex;
+  }
+
+  .requirements .contact .contact_phone img {
+    width: 12px;
+    height: 13px;
+    margin-top: 12px;
+  }
+
+  .requirements .contact .contact_phone a {
+    margin: 10px 0px 0px 10px;
+
+    display: block;
+    font-size: 12px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0.25px;
+  }
+
+  .requirements .contact .contact_mail {
+    display: flex;
+  }
+
+  .requirements .contact .contact_mail img {
+    width: 13px;
+    height: 11px;
+    margin-top: 14px;
+  }
+
+  .requirements .contact .contact_mail a {
+    margin: 10px 0px 0px 10px;
+
+    display: block;
+    font-size: 12px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+  }
+
+  footer {
+    margin-top: 5px;
+    padding: 0px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d303a;
+  }
+
+  footer .copyright {
+    display: none;
+  }
+
+  footer .links {
+    margin: 21px auto 0px;
+  }
+
+  footer .links img {
+    margin-left: 1px;
+
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1019px) {
@@ -602,9 +1034,7 @@
     letter-spacing: 0.1px;
     overflow: hidden;
   }
-}
 
-@media (min-width: 768px) and (max-width: 1019px) {
   #middle_wrapper {
     width: 100%;
   }
@@ -779,6 +1209,227 @@
 
   .about_us .about .about_persons .persons_links img {
     margin-right: 1px;
+
+    cursor: pointer;
+  }
+
+  #bottom_wrapper {
+    width: 100%;
+  }
+
+  .quote {
+    padding: 0px 40px 0px 42px;
+
+    background-color: #f06c64;
+  }
+
+  .quote h1 {
+    padding-top: 62px;
+
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.3px;
+  }
+
+  .quote .description {
+    width: 100%;
+    padding-top: 27px;
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 300;
+    letter-spacing: 0.2px;
+  }
+
+  .requirements {
+    padding: 11px 40px 39px 39px;
+
+    display: flex;
+    background-color: #f06c64;
+    box-shadow: 0px 6px 0px 0px #ea676b;
+  }
+
+  .requirements form {
+    margin-top: 14px;
+  }
+
+  .requirements form input {
+    width: 432px;
+    height: 38px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-style: none;
+
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .requirements form input:first {
+    margin-top: 14px;
+    padding-left: 13px;
+  }
+
+  .requirements form input::placeholder {
+    color: #f48c8f;
+  }
+
+  .requirements form textarea {
+    width: 432px;
+    height: 154px;
+    padding: 5px 0px 0px 10px;
+    border-radius: 5px;
+    border-style: none;
+
+    background-color: #d6564f;
+  }
+
+  .requirements form button {
+    width: 136px;
+    height: 38px;
+    margin-top: 13px;
+    border-radius: 5px;
+    border-style: none;
+
+    background: #fbc65f;
+    font-family: 'Lato-Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #886a30;
+  }
+
+  .requirements form textarea::placeholder {
+    color: #f48c8f;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.1px;
+  }
+
+  .requirements .contact {
+    margin: 14px 0px 0px 29px;
+  }
+
+  .requirements .contact .contact_header {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: 'Lato-Bold';
+    font-weight: 900;
+    text-align: left;
+  }
+
+  .requirements .contact .contact_description {
+    height: 100px;
+    margin-top: 3px;
+
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0.25px;
+    line-height: 1.84;
+  }
+
+  .requirements .contact .contact_place {
+    margin: 43px 0px 0px 2px;
+  }
+
+  .requirements .contact .contact_place span {
+    margin-left: 10px;
+
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.25px;
+  }
+
+  .requirements .contact .contact_phone a {
+    margin-left: 7px;
+
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0.25px;
+  }
+
+  .requirements .contact .contact_mail {
+    margin-top: -1px;
+  }
+
+  .requirements .contact .contact_mail a {
+    margin-left: 6px;
+
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+  }
+
+  footer {
+    width: 100%;
+    height: 76px;
+    margin-top: 6px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d303a;
+  }
+
+  footer .copyright {
+    margin-top: 1px;
+    padding-left: 40px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #666d89;
+    letter-spacing: 0.25px;
+  }
+
+  footer .links {
+    margin-top: 21px;
+    padding-right: 40px;
+  }
+
+  footer .links img {
+    margin-left: 1px;
 
     cursor: pointer;
   }
@@ -1037,9 +1688,7 @@
     width: 300px;
     padding-left: 20px;
   }
-}
 
-@media (min-width: 1020px) {
   #middle_wrapper {
     width: 1020px;
     margin: 0 auto;
@@ -1221,430 +1870,7 @@
 
     cursor: pointer;
   }
-}
 
-@media (min-width: 320px) and (max-width: 767px) {
-  #middle_wrapper {
-    min-width: 375px;
-  }
-
-  .portfolio header {
-    padding: 51px 30px 2px;
-
-    background-color: #2d2f39;
-  }
-
-  .portfolio header h2 {
-    padding-bottom: 28px;
-
-    font-size: 30px;
-    line-height: 18px;
-    color: #666d89;
-    font-family: 'Lato';
-    font-weight: 900;
-    text-align: left;
-    letter-spacing: 0.7px;
-  }
-
-  .portfolio header .description {
-    width: 98.3%;
-    height: 105px;
-
-    font-size: 18px;
-    line-height: 30px;
-    color: #767e9e;
-    font-family: 'Lato';
-    font-weight: 300;
-    text-align: left;
-    letter-spacing: 0.1px;
-  }
-
-  .portfolio header menu {
-    padding: 0px 0px 17px 1px;
-
-    display: flex;
-    font-size: 12px;
-    line-height: 22px;
-    color: #767e9e;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-  }
-
-  .portfolio header .menu_buttons {
-    height: 22px;
-    margin-right: 10px;
-    padding: 0px 6.6px;
-    border: 1px solid #767e9e;
-    border-radius: 5px;
-
-    display: block;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-
-  .portfolio header .selected {
-    border: 1px solid #c5c5c5;
-
-    color: #767e9e;
-  }
-
-  .portfolio main {
-    height: 541px;
-    padding: 1px 12px 59px 25px;
-
-    background-color: #2d2f39;
-    box-shadow: 0px -6px 0px 0px #323746 inset;
-    overflow: hidden;
-  }
-
-  .portfolio main .content {
-    max-width: 328px;
-    height: 560px;
-    margin: 0px auto 53px;
-    padding: 5px;
-
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    overflow: hidden;
-  }
-
-  .portfolio main .content img {
-    width: 151px;
-    height: 128px;
-    margin: 0px 13px 14px 0px;
-  }
-
-  .portfolio main .content img.none {
-    display: none;
-  }
-
-  .portfolio main .content img.clicked {
-    box-shadow: 0px 0px 0px 5px #f06c64;
-  }
-
-  .about_us {
-    padding: 0px 30px 11px;
-
-    background-color: #f1f1f1;
-    box-shadow: 0px -6px 0px 0px #ffffff inset;
-  }
-
-  .about_us .about .about_header {
-    padding-top: 43px;
-
-    font-size: 30px;
-    line-height: 18px;
-    color: #666d89;
-    font-family: 'Lato-Bold';
-    text-align: left;
-    letter-spacing: 0.1px;
-  }
-
-  .about_us .about .about_description {
-    width: 100%;
-    padding-top: 27px;
-
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    color: #767e9e;
-    letter-spacing: 0.2px;
-  }
-
-  .about_us .about .about_persons {
-    width: 314px;
-    margin: 23px auto 1px;
-
-    display: flex;
-    flex-flow: row wrap;
-  }
-
-  .about_us .about .about_persons .persons {
-    margin-bottom: 28px;
-  }
-
-  .about_us .about .about_persons .photo {
-    width: 314px;
-    height: 314px;
-  }
-
-  .about_us .about .about_persons .persons_name {
-    width: 319px;
-    height: 18px;
-    margin-top: 14px;
-
-    font-size: 18px;
-    line-height: 18px;
-    color: #666d89;
-    font-family: 'Lato-Bold';
-    font-weight: 900;
-    text-align: left;
-    overflow: hidden;
-  }
-
-  .about_us .about .about_persons .persons_description {
-    width: 98.5%;
-    margin-top: 3px;
-
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 22px;
-    text-align: justify;
-    color: #767e9e;
-    letter-spacing: 0.2px;
-  }
-
-  .about_us .about .about_persons .persons_links {
-    margin: 10px 0px 0px -1px;
-  }
-
-  .about_us .about .about_persons .persons_links img {
-    margin-right: 1px;
-
-    cursor: pointer;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  #bottom_wrapper {
-    min-width: 375px;
-  }
-
-  .quote {
-    padding: 0px 30px;
-
-    background-color: #f06c64;
-  }
-
-  .quote h1 {
-    padding-top: 53px;
-
-    font-size: 30px;
-    line-height: 18px;
-    color: #f0d8d9;
-    font-family: 'Lato-Bold';
-    font-weight: 900;
-    text-align: left;
-    letter-spacing: 0.3px;
-  }
-
-  .quote .description {
-    padding-top: 27px;
-
-    font-size: 18px;
-    line-height: 30px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 300;
-    letter-spacing: 0.2px;
-  }
-
-  .requirements {
-    padding: 9px 30px 40px;
-
-    display: flex;
-    flex-flow: row wrap;
-    background-color: #f06c64;
-    box-shadow: 0px 6px 0px 0px #ea676b;
-  }
-
-  .requirements form {
-    width: 100%;
-    margin-top: 14px;
-  }
-
-  .requirements form input {
-    width: 97.9%;
-    height: 38px;
-    margin-bottom: 12px;
-    padding-left: 7px;
-    border-radius: 5px;
-    border-style: none;
-
-    background-color: #d6564f;
-    font-size: 12px;
-    line-height: 22px;
-    color: #f48c8f;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-  }
-
-  .requirements form input:first {
-    margin-top: 14px;
-    padding-left: 13px;
-  }
-
-  .requirements form input::placeholder {
-    color: #f48c8f;
-  }
-
-  .requirements form textarea {
-    width: 97.9%;
-    height: 154px;
-    padding: 5px 0px 0px 7px;
-    border-radius: 5px;
-    border-style: none;
-
-    background-color: #d6564f;
-  }
-
-  .requirements form button {
-    width: 100%;
-    height: 50px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border-style: none;
-
-    background: #fbc65f;
-    font-family: 'Lato-Bold';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #886a30;
-  }
-
-  .requirements form textarea::placeholder {
-    color: #f48c8f;
-    font-size: 12px;
-    line-height: 22px;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-    letter-spacing: 0.1px;
-  }
-
-  .requirements .contact {
-    margin-top: 32px;
-  }
-
-  .requirements .contact .contact_header {
-    font-size: 18px;
-    line-height: 18px;
-    color: #f0d8d9;
-    font-family: 'Lato-Bold';
-    font-weight: 900;
-    text-align: left;
-  }
-
-  .requirements .contact .contact_description {
-    margin-top: 3px;
-
-    font-size: 12px;
-    line-height: 22px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: justify;
-    letter-spacing: 0.25px;
-    line-height: 1.84;
-  }
-
-  .requirements .contact .contact_place {
-    margin-top: 14px;
-    margin-left: 2px;
-
-    display: flex;
-  }
-
-  .requirements .contact .contact_place img {
-    width: 8px;
-    height: 13px;
-    margin-top: 2px;
-  }
-
-  .requirements .contact .contact_place span {
-    margin-left: 13px;
-
-    display: block;
-    font-size: 12px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-    letter-spacing: 0.25px;
-  }
-
-  .requirements .contact .contact_phone {
-    display: flex;
-  }
-
-  .requirements .contact .contact_phone img {
-    width: 12px;
-    height: 13px;
-    margin-top: 12px;
-  }
-
-  .requirements .contact .contact_phone a {
-    margin: 10px 0px 0px 10px;
-
-    display: block;
-    font-size: 12px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-    text-decoration: none;
-    letter-spacing: 0.25px;
-  }
-
-  .requirements .contact .contact_mail {
-    display: flex;
-  }
-
-  .requirements .contact .contact_mail img {
-    width: 13px;
-    height: 11px;
-    margin-top: 14px;
-  }
-
-  .requirements .contact .contact_mail a {
-    margin: 10px 0px 0px 10px;
-
-    display: block;
-    font-size: 12px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-    text-decoration: none;
-    letter-spacing: 0.1px;
-  }
-
-  footer {
-    margin-top: 5px;
-    padding: 0px 30px;
-
-    display: flex;
-    justify-content: space-between;
-    background-color: #2d303a;
-  }
-
-  footer .copyright {
-    display: none;
-  }
-
-  footer .links {
-    margin: 21px auto 0px;
-  }
-
-  footer .links img {
-    margin-left: 1px;
-
-    cursor: pointer;
-  }
-}
-
-@media (min-width: 1020px) {
   #bottom_wrapper {
     width: 1020px;
     margin: 0 auto;
@@ -1860,229 +2086,6 @@
 
   footer .links {
     margin-top: 21px;
-  }
-
-  footer .links img {
-    margin-left: 1px;
-
-    cursor: pointer;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1019px) {
-  #bottom_wrapper {
-    width: 100%;
-  }
-
-  .quote {
-    padding: 0px 40px 0px 42px;
-
-    background-color: #f06c64;
-  }
-
-  .quote h1 {
-    padding-top: 62px;
-
-    font-size: 30px;
-    line-height: 18px;
-    color: #f0d8d9;
-    font-family: 'Lato-Bold';
-    font-weight: 900;
-    text-align: left;
-    letter-spacing: 0.3px;
-  }
-
-  .quote .description {
-    width: 100%;
-    padding-top: 27px;
-
-    font-size: 18px;
-    line-height: 30px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 300;
-    letter-spacing: 0.2px;
-  }
-
-  .requirements {
-    padding: 11px 40px 39px 39px;
-
-    display: flex;
-    background-color: #f06c64;
-    box-shadow: 0px 6px 0px 0px #ea676b;
-  }
-
-  .requirements form {
-    margin-top: 14px;
-  }
-
-  .requirements form input {
-    width: 432px;
-    height: 38px;
-    margin-bottom: 12px;
-    padding-left: 10px;
-    border-radius: 5px;
-    border-style: none;
-
-    background-color: #d6564f;
-    font-size: 12px;
-    line-height: 22px;
-    color: #f48c8f;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-  }
-
-  .requirements form input:first {
-    margin-top: 14px;
-    padding-left: 13px;
-  }
-
-  .requirements form input::placeholder {
-    color: #f48c8f;
-  }
-
-  .requirements form textarea {
-    width: 432px;
-    height: 154px;
-    padding: 5px 0px 0px 10px;
-    border-radius: 5px;
-    border-style: none;
-
-    background-color: #d6564f;
-  }
-
-  .requirements form button {
-    width: 136px;
-    height: 38px;
-    margin-top: 13px;
-    border-radius: 5px;
-    border-style: none;
-
-    background: #fbc65f;
-    font-family: 'Lato-Bold';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #886a30;
-  }
-
-  .requirements form textarea::placeholder {
-    color: #f48c8f;
-    font-size: 12px;
-    line-height: 22px;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-    letter-spacing: 0.1px;
-  }
-
-  .requirements .contact {
-    margin: 14px 0px 0px 29px;
-  }
-
-  .requirements .contact .contact_header {
-    font-size: 18px;
-    line-height: 18px;
-    color: #f0d8d9;
-    font-family: 'Lato-Bold';
-    font-weight: 900;
-    text-align: left;
-  }
-
-  .requirements .contact .contact_description {
-    height: 100px;
-    margin-top: 3px;
-
-    font-size: 12px;
-    line-height: 22px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: justify;
-    letter-spacing: 0.25px;
-    line-height: 1.84;
-  }
-
-  .requirements .contact .contact_place {
-    margin: 43px 0px 0px 2px;
-  }
-
-  .requirements .contact .contact_place span {
-    margin-left: 10px;
-
-    display: inline-block;
-    font-size: 12px;
-    line-height: 22px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-    letter-spacing: 0.25px;
-  }
-
-  .requirements .contact .contact_phone a {
-    margin-left: 7px;
-
-    display: inline-block;
-    font-size: 12px;
-    line-height: 22px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-    text-decoration: none;
-    letter-spacing: 0.25px;
-  }
-
-  .requirements .contact .contact_mail {
-    margin-top: -1px;
-  }
-
-  .requirements .contact .contact_mail a {
-    margin-left: 6px;
-
-    display: inline-block;
-    font-size: 12px;
-    line-height: 22px;
-    color: #f0d8d9;
-    font-family: 'Lato';
-    font-weight: 400;
-    text-align: left;
-    text-decoration: none;
-    letter-spacing: 0.1px;
-  }
-
-  footer {
-    width: 100%;
-    height: 76px;
-    margin-top: 6px;
-
-    display: flex;
-    justify-content: space-between;
-    background-color: #2d303a;
-  }
-
-  footer .copyright {
-    margin-top: 1px;
-    padding-left: 40px;
-
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 13px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #666d89;
-    letter-spacing: 0.25px;
-  }
-
-  footer .links {
-    margin-top: 21px;
-    padding-right: 40px;
   }
 
   footer .links img {
