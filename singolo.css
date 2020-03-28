@@ -647,6 +647,9 @@
     display: flex;
     justify-content: flex-start;
     flex-flow: row wrap;
+    margin: 0px auto;
+
+    width: 709px;
   }
 
   .portfolio main .content img {
